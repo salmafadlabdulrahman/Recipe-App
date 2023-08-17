@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Recipes App</title>
+  </head>
+  <body>
+    <div class="mobile-container">
+      <header>
+        <input type="text" id="search-term" />
+        <button id="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </header>
+
+      <div class="fav-container">
+        <h3>Favorite Meals</h3>
+        <ul class="fav-meals"></ul>
+      </div>
+
+      <div class="meals" id="meals"></div>
+    </div>
+
+    <div class="popup-container" id="meal-popup">
+      <div class="popup">
+        <button class="close-popup">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="meal-info" id="meal-info">
+          
+          <!--<h1>Meal Title</h1>
+          <div class="recipe-img">
+            <img
+              src="https://www.themealdb.com/images/media/meals/020z181619788503.jpg"
+              alt=""
+            />
+          </div>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+            praesentium est totam sequi nemo ipsam nulla ab esse maiores quod?
+          </p>
+          <ol class="ingredients">
+            <li>ing 1 / measure</li>
+            <li>ing 2 / measure</li>
+            <li>ing 3 / measure</li>
+          </ol>-->
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
